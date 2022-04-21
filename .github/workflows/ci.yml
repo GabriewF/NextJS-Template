@@ -1,0 +1,41 @@
+# Name
+name: "🌟 Run pNPM, and update Packages"
+
+# Trigger
+on: [pull_request]
+
+# Jobs
+jobs:
+  # Deploy
+  deploy:
+    # Job name
+    name: "✨ Run pNPM, and update Packages"
+    # Runs on Ubuntu Latest
+    runs-on: ubuntu-latest
+
+    steps:
+      # Uses Actions Checkout
+      - name: "📜 Run Checkout"
+        uses: actions/checkout@v3
+
+      # Setup pNPM
+      - name: "📦 Install pNPM and perform packages installation"
+        uses: pnpm/action-setup@v2.2.1
+        with:
+          version: "latest"
+          run_install: true
+
+      # Configure Node Job
+      - name: "🔧 Configure Node.JS"
+        uses: actions/setup-node@v3
+        with:
+          node-version: "14"
+          cache: "pnpm"
+
+      # Run ESLint and Prettier
+      - name: "🚧 Run ESLint and Prettier"
+        run: pnpm run lint
+
+      # Build the applications
+      - name: "🧱 Build the application"
+        run: pnpm run build
