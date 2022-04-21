@@ -2,9 +2,8 @@
 /** @type {import('next').NextConfig} */
 const withPreact = require('next-plugin-preact');
 const path = require('path')
-const nextTranslate = require('next-translate')
 
-const nextConfig = nextTranslate({
+const nextConfig = {
   // Compiler
   compilerOptions: {
     removeConsole: true,
@@ -73,6 +72,6 @@ const nextConfig = nextTranslate({
     )
     return config
   },
-})
+}
 
 module.exports = withPreact(nextConfig)
