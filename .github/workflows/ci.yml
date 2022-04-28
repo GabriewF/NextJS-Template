@@ -23,6 +23,7 @@ jobs:
         uses: pnpm/action-setup@v2.2.1
         with:
           version: "latest"
+          recursive: false
           run_install: true
 
       # Configure Node Job
