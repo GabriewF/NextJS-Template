@@ -2,13 +2,13 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 
 // Api Handler
-async function HelloHandler(req: NextApiRequest, res: NextApiResponse) {
+const HelloHandler = async (req: NextApiRequest, res: NextApiResponse) => {
   ///
   try {
     switch (req.method) {
       case 'GET': {
         // Response function
-        async function Response(): Promise<boolean> {
+        const Response = async (): Promise<boolean> => {
           // Response Body Interface
           interface ResponseBody {
             statusCode: number,
@@ -43,7 +43,7 @@ async function HelloHandler(req: NextApiRequest, res: NextApiResponse) {
       }
       default: {
         // Response function
-        async function Response(): Promise<boolean> {
+        const Response = async (): Promise<boolean> => {
           // Response Body Interface
           interface ResponseBody {
             statusCode: number,
@@ -69,16 +69,16 @@ async function HelloHandler(req: NextApiRequest, res: NextApiResponse) {
           return false
         }
 
-        //Calling functions
+        // Calling functions
         await Response()
 
         // End
         break
       }
     }
-  } /* Catch error */ catch (err: unknown) {
+  } /* Catch error */ catch (err: unknown | any) {
     // Response function
-    async function Response(): Promise<boolean> {
+    const Response = async (): Promise<boolean> => {
       // Response Body Interface
       interface ResponseBody {
         statusCode: number,
@@ -107,6 +107,9 @@ async function HelloHandler(req: NextApiRequest, res: NextApiResponse) {
 
     //Calling functions
     await Response()
+
+    // Error
+    throw new Error(err)
   }
 }
 
