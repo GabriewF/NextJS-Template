@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A simple NextJS template, used by me",
   "private": true,
-  "packageManager": "pnpm@7.0.0-rc.7",
+  "packageManager": "pnpm@7.0.0",
   "displayName": "NextJS Template",
   "publisher": "Vercel",
   "readme": "https://github.com/gabriewf/NextJS-Template#readme",
