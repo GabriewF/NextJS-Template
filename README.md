@@ -12,6 +12,12 @@
   <!-- BADGES:START -->
   <a aria-label="Vercel logo" href="https://vercel.com"/>
   <img src="https://img.shields.io/badge/MADE%20BY%20Vercel-000000.svg?style=for-the-badge&logo=Vercel&labelColor=000">
+  
+  <a aria-label="Gitpod logo" href="https://gitpod.io/#https://github.com/GabriewF/NextJS-Template"/>
+  <img src="https://img.shields.io/badge/Gitpod-Open%20in%20Gitpod-yellow?style=for-the-badge&logo=gitpod">
+  
+  <a aria-label="Gitpod logo" href="https://stackblitz.com/github/GabriewF/NextJS-Template"/>
+  <img src="https://img.shields.io/badge/StackBlitz-Open%20in%20StackBlitz-blue?style=for-the-badge&logo=stackedit">
   <!-- BADGES:END --> 
 </div>  
 
