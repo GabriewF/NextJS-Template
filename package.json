@@ -54,9 +54,4 @@
     "url": "https://github.com/gabriewf/NextJS-Template/issues"
   },
   "homepage": "https://github.com/gabriewf/NextJS-Template#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "prettier --write . && next lint && git add -A"
-    }
-  }
 }
