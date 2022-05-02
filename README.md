@@ -6,7 +6,7 @@
 <div align="center">
   <!-- TITLE:START --> 
   <h1>NextJS Template 👋</h1>
-  <h3>This is a basic template for NextJS for me :)</h4>
+  <h3>This is a basic template for NextJS can anyone use :)</h4>
   <!-- TITLE:END --> 
 
   <!-- BADGES:START -->
