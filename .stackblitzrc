@@ -1,0 +1,6 @@
+{
+  "startCommand": "npm install",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
