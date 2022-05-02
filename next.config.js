@@ -61,16 +61,6 @@ const nextConfig = {
       },
     ]
   },
-
-  // Webpack
-  webpack: (config) => {
-    config.resolve.alias['fast-deep-equal'] = path.resolve(
-      __dirname,
-      'node_modules',
-      'fast-deep-equal',
-    )
-    return config
-  },
 }
 
 module.exports = nextConfig
