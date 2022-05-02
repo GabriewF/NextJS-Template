@@ -1,7 +1,7 @@
 <!-- HTML:START -->
 <p align="center">
   <a href="https://nextjs.org" />
-  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" height=125 width=200 />
+  <img src="https://raw.githubusercontent.com/GabriewF/NextJS-Template/main/Logo.webp" />
 </p>
 <div align="center">
   <!-- TITLE:START --> 
