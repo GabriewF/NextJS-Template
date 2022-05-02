@@ -18,7 +18,7 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -53,5 +53,5 @@
   "bugs": {
     "url": "https://github.com/gabriewf/NextJS-Template/issues"
   },
-  "homepage": "https://github.com/gabriewf/NextJS-Template#readme",
+  "homepage": "https://github.com/gabriewf/NextJS-Template#readme"
 }
