@@ -1,11 +1,11 @@
 <!-- HTML:START -->
 <p align="center">
   <a href="https://nextjs.org" />
-  <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height=100 width=100 />
+  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" height=125 width=200 />
 </p>
 <div align="center">
   <!-- TITLE:START --> 
-  <h1>NextJS Template 👋</h1>
+  <h1>⚡ NextJS Template ⚡</h1>
   <h3>This is a basic template for NextJS, that can anyone use :)</h4>
   <!-- TITLE:END --> 
 
