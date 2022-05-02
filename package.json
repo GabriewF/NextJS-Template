@@ -12,7 +12,8 @@
     "build": "next lint && next build",
     "start": "next start",
     "preview": "next lint && next build && next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "latest",
