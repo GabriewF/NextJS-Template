@@ -1,3 +1,4 @@
+// Page
 const Index: React.FC = (): JSX.Element => {
   return (
     <>
@@ -6,4 +7,5 @@ const Index: React.FC = (): JSX.Element => {
   )
 }
 
+// Export
 export default Index
