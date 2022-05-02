@@ -1,7 +1,7 @@
 {
   "name": "nextjs-template",
   "version": "0.1.0",
-  "description": "A simple NextJS template, used by me",
+  "description": "A simple NextJS template, that can anyone use ;)",
   "private": true,
   "packageManager": "pnpm@7.0.0",
   "displayName": "NextJS Template",
@@ -33,7 +33,6 @@
     "eslint": "latest",
     "eslint-config-next": "latest",
     "eslint-config-prettier": "latest",
-    "fast-deep-equal": "latest",
     "husky": "latest",
     "postcss": "latest",
     "prettier": "latest",
