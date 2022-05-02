@@ -21,7 +21,17 @@
 
 <!-- HTML:START -->
 <div align="left">
+  
+  - <a href="https://nextjs.org">
+    <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height=14 width=14 />
+    <b>Next.JS</b>
+  </a>
 
+  - <a href="https://reactjs.org/">
+    <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height=14 width=14 />
+    <b>React</b>
+  </a>
+  
   - <a href="https://postcss.org">
     <img src="https://cdn.worldvectorlogo.com/logos/postcss.svg" height=14 width=14 /> <b>PostCSS</b>
   </a>
@@ -35,16 +45,7 @@
     <img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height=14 width=14 />
     <b>ESLint</b>
   </a>
-
-  - <a href="https://nextjs.org">
-    <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height=14 width=14 />
-    <b>Next.JS</b>
-  </a>
-
-  - <a href="https://reactjs.org/">
-    <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height=14 width=14 />
-    <b>React</b>
-  </a>
+  
 </div>
 <!-- HTML:END --> 
 
