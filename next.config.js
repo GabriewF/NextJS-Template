@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /** @type {import('next').NextConfig} */
-const withPreact = require('next-plugin-preact');
 const path = require('path')
 
 const nextConfig = {
@@ -74,4 +73,4 @@ const nextConfig = {
   },
 }
 
-module.exports = withPreact(nextConfig)
+module.exports = nextConfig
