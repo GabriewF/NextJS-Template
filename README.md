@@ -45,12 +45,6 @@
     <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height=14 width=14 />
     <b>React</b>
   </a>
-
-  - <a href="https://preactjs.com/">
-    <img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height=14 width=14 />
-    <b>Preact</b>
-  </a>
-
 </div>
 <!-- HTML:END --> 
 
